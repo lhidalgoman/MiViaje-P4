@@ -1,0 +1,13 @@
+
+
+<section>
+    <select class="nameSelect" (change)="onCityChange($event)">
+        <option value="All">All</option>
+        
+        <option *ngFor="let city of uniqueCities$ | async" [value]="city">{{ city }}</option>
+    </select>
+    <select class="daySelect" (change)="onDayChange($event)">
+        <option value="All">All</option>
+       
+        <option *ngFor="let day of uniqueDays$ | async" [value]="day">Día {{ day }}</option>
+</select>

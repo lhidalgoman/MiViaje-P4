@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "miviajep2": {
+      "hosting": {
+        "MiViajeP2": [
+          "miviajep2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "miviajep2"
+  }
+}

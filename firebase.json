@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "MiViajeP2",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}
